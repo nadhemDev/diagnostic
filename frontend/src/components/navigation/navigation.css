@@ -1,0 +1,28 @@
+.navv {
+ 
+    position: fixed;
+    width: 100%;
+    height: 1;
+    top: 0;
+    left: 0;
+    font-family: 'Exo 2',
+    sans-serif;
+    background: none;
+    /* overflow: hidden; */
+    z-index: 1;
+
+
+
+}
+.me-auto{
+    margin-left: 70%;
+}
+/* #collasible-nav-dropdown{
+    position: absolute;
+    overflow: hidden;
+} */
+
+    .dropdown-menu{
+position: absolute;
+z-index: 1;
+    }

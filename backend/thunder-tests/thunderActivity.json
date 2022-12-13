@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "c2cb87ce-d122-4968-b7bb-6333545bd565",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/api/user/",
+    "url": "http://localhost:5000/api/user/getuser",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-04-20T12:42:49.821Z",
+    "modified": "2022-04-26T12:24:17.549Z",
+    "headers": [
+      {
+        "name": "authentification",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNjZlYzlhZjAyOGVkZWYyMTQ5OTVkNyIsImlhdCI6MTY1MDkxMjQxMH0.AvVPLiTGKc42hOafkwYzMjdtVV531a0Z5W4BO53OHRU"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \n    \"email\":\"omaimakthiri@gmail.com\",\n    \"password\":\"omaima1234\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f6adcf3c-db29-48c2-8f10-49fccca8154d",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/api/user/getuser",
+    "url": "http://localhost:5000/api/user/getuser",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-04-20T13:51:04.443Z",
+    "modified": "2022-04-20T13:51:04.524Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "28898e69-86ad-4a97-90fc-8cad0f63e886",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5000/api/user/",
+    "url": "http://localhost:5000/api/user/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-04-20T13:58:23.599Z",
+    "modified": "2022-04-22T12:19:41.800Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \n    \"firstName\":\"ferjani\",\n    \"lastName\":\"sassi\",\n    \"email\":\"ferjani@gmail.com\",\n    \"password\":\"ferjani123\",\n    \"username\":\"saass\"\n    \n\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
